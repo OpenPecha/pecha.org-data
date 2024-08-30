@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://pecha.org"><img src="https://avatars.githubusercontent.com/u/82142807?s=400&u=19e108a15566f3a1449bafb03b8dd706a72aebcd&v=4" alt="Pecha" width="150"></a>
+  <a href="https://pecha.org"><img src="https://dev.pecha.org/static/img/pecha-logo.svg" alt="Pecha" width="400"></a>
   <br>
 </h1>
 
