@@ -1,0 +1,65 @@
+{
+    "source": {
+        "categories": [
+            {
+                "name": "EN level_1 category name",
+                "enDesc": "EN level_1 description",
+                "enShortDesc": "EN level_1 short description"
+            },
+            {
+                "name": "EN level_n category name",
+                "enDesc": "EN level_n description",
+                "enShortDesc": "EN level_n short description",
+                "base_text_titles": ["EN `short_title` of root text"],
+                "base_text_mapping": "many_to_one",
+                "link": "Commentary"
+            }
+        ],
+        "books": [
+            {
+                "title": "EN `short_title` of text",
+                "language": "EN `lang` (lowercase)",
+                "versionSource": "`source` else ` `",
+                "completestatus": "`status`",
+                "content": [],
+                "direction":"ltr"
+            }
+        ]
+    },
+    "target": {
+        "categories": [
+            {
+                "name": "MAIN level_1 category name",
+                "heDesc": "MAIN level_1 description",
+                "heShortDesc": "MAIN level_1 short description"
+            },
+            {
+                "name": "MAIN level_n category name",
+                "heDesc": "MAIN level_n description",
+                "heShortDesc": "MAIN level_n short description",
+                "base_text_titles": ["EN `short_title` of root text"],
+                "base_text_mapping": "many_to_one",
+                "link": "Commentary"
+            }
+        ],
+        "books": [
+            {
+                "title": "MAIN `short_title`",
+                "language": "MAIN `lang` (lowercase)",
+                "versionSource": "MAIN `source` else ` `",
+                "completestatus": "MAIN `status`",
+                "content": [
+                    [
+                        "<`ROOT_SECTION_NUM`><`ROOT_MEANING-SEGMENT_NUM`>meaning-segment 1 of section 1",
+                        "<`ROOT_SECTION_NUM`><`ROOT_MEANING-SEGMENT_NUM`>meaning-segment n of section 1"
+                    ],
+                    [
+                        "<`ROOT_SECTION_NUM`><`ROOT_MEANING-SEGMENT_NUM`>meaning-segment 1 of section n",
+                        "<`ROOT_SECTION_NUM`><`ROOT_MEANING-SEGMENT_NUM`>meaning-segment n of section n"
+                    ]
+                ],
+                "direction": "ltr"
+            }
+        ]
+    }
+}

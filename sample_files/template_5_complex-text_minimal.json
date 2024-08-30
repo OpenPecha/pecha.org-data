@@ -1,0 +1,124 @@
+{
+    "source": {
+        "categories": [
+            {
+                "name": "EN level_1 category name",
+                "enDesc": "EN level_1 description",
+                "enShortDesc": "EN level_1 short description"
+            },
+            {
+                "name": "EN level_n category name",
+                "enDesc": "EN level_n description",
+                "enShortDesc": "EN level_n short description"
+            }
+        ],
+        "books": [
+            {
+                "title": "EN `short_title` of text",
+                "language": "EN `lang` (lowercase)",
+                "versionSource": "`source` else ` `",
+                "completestatus": "`status`",
+                "content": {
+                    "Section_A. EN title": {
+                        "data": [],
+                        "Section_A.1. EN title": {
+                            "data": []
+                        },
+                        "Section_A.n. EN title": {
+                            "data": []
+                        }
+                    },
+                    "Section_n. EN title": {
+                        "data": [],
+                        "Section_n.1. EN title": {
+                            "data": [],
+                            "Section_n.2.1 EN title": {
+                                "data": []
+                            },
+                            "Section_n.2.n EN title": {
+                                "data": []
+                            }
+                        },
+                        "Section_n.n. EN title": {
+                            "data": []
+
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "target": {
+        "categories": [
+            {
+                "name": "EN level_1 category name",
+                "enDesc": "EN level_1 description",
+                "enShortDesc": "EN level_1 short description"
+            },
+            {
+                "name": "EN level_n category name",
+                "enDesc": "EN level_n description",
+                "enShortDesc": "EN level_n short description"
+            }
+        ],
+        "books": [
+            {
+                "title": "MAIN `short_title` of text",
+                "language": "MAIN `lang` (lowercase)",
+                "versionSource": "MAIN `source` else ` `",
+                "completestatus": "MAIN `status`",
+                "content": {
+                    "Section_A. EN title": {
+                        "data": [
+                            "meaning-segment 1 of Section_A.",
+                            "meaning-segment n of Section_A."
+                        ],
+                        "Section_A.1. EN title": {
+                            "data": [
+                                "meaning-segment 1 of Section_A.1.",
+                                "meaning-segment n of Section_A.1"
+                            ]
+                        },
+                        "Section_A.n. EN title": {
+                            "data": [
+                                "meaning-segment 1 of Section_A.n",
+                                "meaning-segment n of Section_A.n"
+                            ]
+                        }
+                    },
+                    "Section_n. EN title": {
+                        "data": [
+                            "meaning-segment 1 of Section_n",
+                            "meaning-segment n of Section_n"
+                        ],
+                        "Section_n.1. EN title": {
+                            "data": [
+                                "meaning-segment 1 of Section_n.1",
+                                "meaning-segment n of Section_n.1"
+                            ],
+                            "Section_n.2.1 EN title": {
+                                "data": [
+                                    "meaning-segment 1 of Section_n.2.1.",
+                                    "meaning-segment n of Section_n.2.1."
+                                ]
+                            },
+                            "Section_n.2.n EN title": {
+                                "data": [
+                                    "meaning-segment 1 of Section_n.2",
+                                    "meaning-segment n of Section_n.2"
+                                ]
+                            }
+                        },
+                        "Section_n.n. EN title": {
+                            "data": [
+                                "meaning-segment 1 of Section_n.n.",
+                                "meaning-segment n of Section_n.n."
+                            ]
+
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "source": {
+        "categories": [
+            {
+                "name": "EN level_1 category name",
+                "enDesc": "EN level_1 description",
+                "enShortDesc": "EN level_1 short description"
+            },
+            {
+                "name": "EN level_n category name",
+                "enDesc": "EN level_n description",
+                "enShortDesc": "EN level_n short description"
+            }
+        ],
+        "books": [
+            {
+                "title": "TRANS_1 `short_title`",
+                "language": "TRANS_1 `lang` (lowercase)",
+                "versionSource": "TRANS_1 `source` else ` `",
+                "completestatus": "TRANS_1 `status`",
+                "content": [
+                    [
+                        "TRANS_1 meaning-segment 1 of section 1",
+                        "TRANS_1 meaning-segment n of section 1"
+                    ],
+                    [
+                        "TRANS_1 meaning-segment 1 of section n",
+                        "TRANS_1 meaning-segment n of section n"
+                    ]
+                ],
+                "direction":"ltr"
+            },
+            {
+                "title": "TRANS_n `short_title`",
+                "language": "TRANS_n `lang` (lowercase)",
+                "versionSource": "TRANS_n `source` else ` `",
+                "completestatus": "TRANS_n `status`",
+                "content": [
+                    [
+                        "TRANS_n meaning-segment 1 of section 1",
+                        "TRANS_n meaning-segment n of section 1"
+                    ],
+                    [
+                        "TRANS_n meaning-segment 1 of section n",
+                        "TRANS_n meaning-segment n of section n"
+                    ]
+                ],
+                "direction":"ltr"
+            }
+        ]
+    },
+    "target": {
+        "categories": [
+            {
+                "name": "MAIN level_1 category name",
+                "heDesc": "MAIN level_1 description",
+                "heShortDesc": "MAIN level_1 short description"
+            },
+            {
+                "name": "MAIN level_n category name",
+                "heDesc": "MAIN level_n description",
+                "heShortDesc": "MAIN level_n short description"
+            }
+        ],
+        "books": [
+            {
+                "title": "MAIN `short_title`",
+                "language": "MAIN `lang` (lowercase)",
+                "versionSource": "MAIN `source` else ` `",
+                "completestatus": "MAIN `status`",
+                "content": [
+                    [
+                        "meaning-segment 1 of section 1",
+                        "meaning-segment n of section 1"
+                    ],
+                    [
+                        "meaning-segment 1 of section n",
+                        "meaning-segment n of section n"
+                    ]
+                ],
+                "direction": "ltr"
+            }
+        ]
+    }
+}
