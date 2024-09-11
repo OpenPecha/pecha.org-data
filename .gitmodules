@@ -1,0 +1,3 @@
+[submodule "src/catalog_parser/third_party/leavedonto"]
+	path = src/catalog_parser/third_party/leavedonto
+	url = https://github.com/Esukhia/leavedonto.git
