@@ -6,7 +6,7 @@ from pathlib import Path
 from .catalog_manager import CatalogManager
 
 
-def parser(cat_link, out_path):
+def cat_parser(cat_link, out_path):
     # B.1 download the catalog
     http = urllib3.PoolManager()
     r = http.request('GET', cat_link, preload_content=False)

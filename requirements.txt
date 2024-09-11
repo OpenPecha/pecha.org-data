@@ -1,0 +1,5 @@
+openpyxl
+PyYAML
+tibetan_sort
+urllib3
+# be sure to add submodule: https://github.com/Esukhia/leavedonto
