@@ -1,4 +1,4 @@
-from src.raw_input_parsers import parse_cbeta_2_pecha
+from ..src.raw_input_parsers import parse_cbeta_2_pecha
 
 def test_cbeta_footnotes():
     in_strings = [
