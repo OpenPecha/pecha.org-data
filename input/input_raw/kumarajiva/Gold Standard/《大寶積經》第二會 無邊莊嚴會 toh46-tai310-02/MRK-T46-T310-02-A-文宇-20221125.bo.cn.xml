@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<linkGrp toDoc='第二品.cn.xml' fromDoc='第二品.bo.xml'>
+<linkGrp toDoc='.cn.xml' fromDoc='.bo.xml'>
 <link type='1-1' xtargets='1:1;1:1' status='man'/>
 <link type='1-1' xtargets='1:2;1:2' status='man'/>
 <link type='0-1' xtargets=';1:3' status='man'/>
