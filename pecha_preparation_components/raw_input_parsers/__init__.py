@@ -1,1 +1,2 @@
 from .parse_footnotes import parse_cbeta_2_pecha
+from .parse_cbeta_xml_triplets import parse_cbeta_xml_triplets
